@@ -12,6 +12,10 @@
         }
         #button{
             color: blue;
+           
+        }
+        #radio{
+            padding-left: 150px;
         }
     </style>
 
@@ -27,8 +31,10 @@
         Nazwisko: <br/>
         <input type="text" name="Nazwisko" placeholder="Wpisz nazwisko"><br/>
         Płeć<br/>
-        <input type="radio" name="Kobieta"value="Kobieta" checked>Kobieta<br/>
-        <input type="radio" name="Mę"value="Mężczyzna">Mężczynza<br/>
+        <div id="radio">
+            <input type="radio" name="Kobieta"value="Kobieta" checked>Kobieta<br/>
+            <input type="radio" name="Mę"value="Mężczyzna">Mężczynza<br/>
+        </div>
         Adres email <br/>
         <input type="email" name="email" placeholder="Wpisz adres email"><br/>
         Haslo<br/>
@@ -70,6 +76,7 @@
         <a href="http://ZADANIE 1">regulamin</a><br/>
         <input type="checkbox" name="zgoda" value="Zgoda" checked>
         Wyrażam zgodę na otrzymanie informacji marketingowych
+
         <div id="button">
             <button type="button">Zarejestruj</button>
         </div>
