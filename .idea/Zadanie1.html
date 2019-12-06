@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formularz Rejestracyjny</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <style>
+        #container{
+            width: 1000px;
+            margin-left: 550px;
+            margin-top: 20px;
+        }
+        #button{
+            color: blue;
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <form method="post">
+        <header>
+            <h1> Rejestracja</h1>
+        </header>
+        Imię: <br/>
+        <input type="text" name="Podaj imię" placeholder="Wpisz imie" ><br/>
+        Nazwisko: <br/>
+        <input type="text" name="Nazwisko" placeholder="Wpisz nazwisko"><br/>
+        Płeć<br/>
+        <input type="checkbox" name="Kobieta"value="Kobieta" checked>Kobieta<br/>
+        <input type="checkbox" name="Mę"value="Mężczyna">Mężczynza<br/>
+        Adres email <br/>
+        <input type="email" name="email" placeholder="Wpisz adres email"><br/>
+        Haslo<br/>
+        <input type="password" name="pass" placeholder="Haslo"><br/>
+        <h6>Min. 8 znaków</h6>
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    Miasto:
+                </td>
+                <td>
+                    Województwo:
+                </td>
+                <td>
+                    Kod pocztowy:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text">
+                </td>
+                <td>
+                    <select size="1">
+                        <option>Wybierz...</option>
+                        <option>Dolnośląskie</option>
+                        <option>Małopolskie</option>
+                        <option>Opolskie</option>
+                        <option>Sląskie</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <input type="checkbox" name="Akc" value="Akceptuje">Akceptuje
+        <a href="http://ZADANIE 1">regulamin</a><br/>
+        <input type="checkbox" name="zgoda" value="Zgoda" checked>
+        Wyrażam zgodę na otrzymanie informacji marketingowych
+        <div id="button">
+            <button type="button">Zarejestruj</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
